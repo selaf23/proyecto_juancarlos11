@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+venv/
+.venv/
+
+# Variables de entorno / secretos
+.env
+.env.*
+
+# Bases de datos vectoriales (regenerables)
+chroma_db/
