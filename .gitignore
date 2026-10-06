@@ -12,6 +12,7 @@ venv/
 # Variables de entorno / secretos
 .env
 .env.*
+!.env.example
 
 # Bases de datos vectoriales (regenerables)
 chroma_db/

@@ -34,6 +34,15 @@ CrossRef para el registro por DOI.
 - CrossRef API (metadatos por DOI)
 - HTML + CSS + JavaScript (portal web)
 
+## Configuración
+```bash
+# Crear el archivo de variables a partir de la plantilla
+cp .env.example .env
+# Editar .env con tus credenciales (DB, Groq, Unsplash, repositorio)
+```
+> El archivo `.env` contiene secretos y está ignorado por Git.
+> Solo se versiona la plantilla `.env.example`.
+
 ## Cómo ejecutar
 ```bash
 # Activar entorno virtual
